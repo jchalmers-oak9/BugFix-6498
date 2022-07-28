@@ -152,6 +152,7 @@ resource "aws_lb_cookie_stickiness_policy" "default" {
   cookie_expiration_period = 600
 }
 
+  # oak9: aws_instance.source_dest_check is not configured
   # oak9: aws_instance.security_groups is not configured
   # oak9: SecurityGroupIds is not configured
   # oak9: NetworkInterfaces.GroupSet is not configured
